@@ -16,5 +16,36 @@ namespace ClickImages
         {
             InitializeComponent();
         }
+
+        private void FormClickableImages_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ONE", "Clickable_Image");
+            pictureBox1.Enabled = false;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TWO", "Clickable_Image");
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("THREE", "Clickable_Image");
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("FOUR", "Clickable_Image");
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("FIVE", "Clickable_Image");
+        }
     }
 }
